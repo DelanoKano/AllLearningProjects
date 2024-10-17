@@ -1,0 +1,38 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+#green {
+    background-color: green;
+    padding: 5px 5px;
+    width: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#red {
+    background-color: red;
+    padding: 5px 5px;
+    width: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+#blue {
+    background-color: blue;
+    padding: 5px 5px;
+    width: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#random {
+    padding: 5px 5px;
+    width: 62px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    background-color: gainsboro;
+}
