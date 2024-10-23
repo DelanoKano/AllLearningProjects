@@ -16,26 +16,36 @@
             <p>Days: <input type="text" class="day-input" placeholder="Hours"
                     readonly></p>
             <p>Hours: <input type="text" class="human-input" placeholder="Hours"
-                    readonly></p>  
+                    readonly></p>       
 
+            <input type="radio" id="ant-input" name="vehicle" value="3,1">
+            <label for="ant">Ant 3,1km/u</label><br>          
 
-            <input type="radio" id="humanspeed-input" name="vehicle" value="human">
+            <input type="radio" id="humanspeed-input" name="vehicle" value="13">
             <label for="human">Human 13km/u</label><br>    
 
-            <input type="radio" id="boat-input" name="vehicle" value="boat">
+            <input type="radio" id="boat-input" name="vehicle" value="40">
             <label for="boat">Boat 40km/u</label><br>
             
-            <input type="radio" id="car-input" name="vehicle" value="car">
+            <input type="radio" id="car-input" name="vehicle" value="120">
             <label for="car">Car 120km/u</label><br>
             
-            <input type="radio" id="airplane-input" name="vehicle" value="airplane">
+            <input type="radio" id="airplane-input" name="vehicle" value="850">
             <label for="airplane">Airplane 850km/u</label><br>
             
-            <input type="radio" id="rocket-input" name="vehicle" value="rocket">
+            <input type="radio" id="apollo13-input" name="vehicle" value="39021">
+            <label for="apollorocket">Apollo13-rocket 39,021km/u</label><br>
+            
+            <input type="radio" id="rocket-input" name="vehicle" value="692000">
             <label for="rocket">Parker Solar Probe 692,000km/u</label><br>
 
-            <input type="radio" id="warp-input" name="vehicle" value="warp">
+            <input type="radio" id="warp-input" name="vehicle" value="12928636000000">
             <label for="warp">Warp speed 1,2928636e+13km/u</label>
+            <br>
+
+            <input type="radio" id="custom-input" name="vehicle" value="">
+            <input type="text" id="input" name="vehicle" oninput="document.getElementById('custom-input').value = this.value">
+            <label for="ant">km/u Custom</label><br>    
             
             <p id="Selected-vehicle">How many hours will it take?</p>
             <p id="Days-vehicle">How many days will it take?</p>
